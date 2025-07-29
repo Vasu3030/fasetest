@@ -1,0 +1,13 @@
+.DS_Store
+node_modules/
+.expo/
+.expo-shared/
+android/
+ios/
+web-build/
+dist/
+build/
+.env
+.env.*
+.vscode/
+.idea/
