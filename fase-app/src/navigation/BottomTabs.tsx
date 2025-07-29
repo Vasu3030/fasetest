@@ -19,7 +19,7 @@ export default function BottomTabs() {
         }}
       >
         <Tab.Screen name="Évènements" component={EventListScreen} />
-        <Tab.Screen name="Favories" component={FavoritesScreen} />
+        <Tab.Screen name="Favoris" component={FavoritesScreen} />
       </Tab.Navigator>
     </NavigationContainer>
   );
