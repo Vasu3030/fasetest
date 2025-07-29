@@ -16,4 +16,4 @@
 - Gestion des erreurs basique
 
 ## Démo
-![Capture d’écran](./demo.mov)
+![Demo](./demo.mov)
