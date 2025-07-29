@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Fixes pour React Native Web */
+html, body, #root {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Assure que les FlatList peuvent scroller sur web */
+[data-focusable="true"] {
+  overflow: auto !important;
+  height: 100%;
+}
+
+/* Style pour les SafeAreaView sur web */
+.react-native-web-view {
+  display: flex;
+  flex-direction: column;
+}
