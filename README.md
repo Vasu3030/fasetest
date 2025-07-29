@@ -1,2 +1,1 @@
-# fasetest
-fasetest
+dbpass=fasetest123
